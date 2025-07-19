@@ -169,7 +169,7 @@ print(f"Confidence: {confidence:.2%}")
 
 ### Dataset Preparation
 
-1. **Download Dataset**: [Plant Disease Dataset](https://www.kaggle.com/datasets/nirmalsankalana/plantdoc-dataset)
+1. **Download Dataset**: [Plant Disease Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
 2. **Organize Structure**:
    ```
    Plant_Disease_Dataset/
@@ -307,25 +307,13 @@ pip install jupyter matplotlib seaborn
 jupyter notebook
 ```
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
-- **Dataset**: [Plant Disease Dataset](https://www.kaggle.com/datasets/nirmalsankalana/plantdoc-dataset) by Nirmal Sankalana
+- **Dataset**: [Plant Disease Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
 - **Framework**: TensorFlow/Keras team for excellent deep learning tools
-- **Model**: EfficientNet authors for the revolutionary architecture
+- **Model**: CNN for the revolutionary architecture
 - **Community**: Streamlit team for the amazing web framework
 - **Inspiration**: Agricultural research community working on sustainable farming
-
-## 📞 Contact
-
-**Akash Patel** - [@YourGitHubUsername](https://github.com/YourGitHubUsername)
-
-Project Link: [https://github.com/YourGitHubUsername/PlantDiseaseDetection](https://github.com/YourGitHubUsername/PlantDiseaseDetection)
-
----
 
 ⭐ **Star this repository if it helped you!** ⭐
 
@@ -358,20 +346,3 @@ Project Link: [https://github.com/YourGitHubUsername/PlantDiseaseDetection](http
 - **Batch Processing**: Supports up to 32 images simultaneously
 
 ---
-
-*Built with ❤️ for sustainable agriculture and food security*
-
-### 📊 Quick Demo
-
-Try the system with sample images:
-```bash
-# Test with provided sample images
-streamlit run main.py
-# Upload any image from testing_image/ folder
-# Example: AppleScab1.JPG, TomatoEarlyBlight1.JPG, PotatoHealthy1.JPG
-```
-
-Results you can expect:
-- **Apple Scab Detection**: 95%+ confidence
-- **Tomato Early Blight**: 98%+ confidence  
-- **Healthy Plant ID**: 90%+ confidence
