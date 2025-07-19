@@ -18,7 +18,7 @@ app_mode = st.sidebar.selectbox("Select Page",["Home","About","Disease Recogniti
 
 #Home Page
 if(app_mode=="Home"):
-    st.header("PLANT DISEASE RECOGNITION SYSTEM")
+    st.header("AGRI-VISION: PLANT DISEASE RECOGNITION SYSTEM")
     image_path = "home_page.jpeg"
     st.image(image_path, use_container_width=True)  # Fixed deprecation warning
     st.markdown("""
